@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "src"
+version = "0.1.0"
+description = ""
+authors = ["Gustavo Mescoki Sarti <gmsarti@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.9.7 || >3.9.7,<3.10"
+hopsworks = "^3.4.4"
+jupyter = "^1.0.0"
+plotly = "^5.19.0"
+scikit-learn = "^1.4.1.post1"
+xgboost = "^2.0.3"
+lightgbm = "^4.3.0"
+optuna = "^3.5.0"
+python-dotenv = "^1.0.1"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
